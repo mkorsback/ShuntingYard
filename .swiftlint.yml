@@ -1,0 +1,31 @@
+opt_in_rules:
+  - closure_end_indentation
+  - closure_spacing
+  - empty_count
+  - empty_string
+  - operator_usage_whitespace
+  - trailing_closure
+  - unneeded_parentheses_in_closure_argument
+  - vertical_parameter_alignment_on_call
+  - yoda_condition
+
+line_length:
+  warning: 160
+  error: 200
+  ignores_function_declarations: true
+  ignores_comments: true
+  ignores_urls: true
+
+trailing_comma:
+  mandatory_comma: true
+
+cyclomatic_complexity:
+  ignores_case_statements: true
+
+identifier_name:
+  excluded:
+    - id
+    - op
+
+reporter: "xcode"
+
